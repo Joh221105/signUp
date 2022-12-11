@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.frame {
+    display:flex;
+    padding:15px
+}
+
+.left-side {
+    background: url(https://images.unsplash.com/photo-1670611938255-67820e3085c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    width:75%;
+    height:70rem;
+}
+
+.right-top {
+    background-color: lightgrey;
+    padding: 9% 5%;
+    text-align: center;
+    line-height:2;
+    font-size: 2rem;
+}
+
+.right-bottom {
+    background-color: lightgrey;
+    padding-top: 20% 0 10% 2%;
+    margin: 5% 0;
+    height:17%;
+    line-height: 5;
+}
+
+.form{
+    padding: 3% 5% 5% 1% ;
+}
+
+.form p {
+    padding-left: 2%;
+    font-size: 2rem;
+}
+
+.banner {
+    background-color: #000A;
+    margin:50% 0;
+    height:10%;
+    text-align: center;
+    padding-top:7%;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.name, .info, .keycode {
+    display:flex;
+    justify-content: flex-start;
+    padding:2%;
+}
+
+.fName, .email, .pWord{
+    margin-right: 5%;
+}
+
+.signIn {
+    display: inline;
+}
